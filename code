@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Best Research Group Webpage</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+    }
+    header {
+      background-color: #ffb6b9;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffe0e0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #444;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+    }
+    .person {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .person img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #ffcad4;
+    }
+    footer {
+      background-color: #ffb6b9;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Best Research Group Webpage</h1>
+    <p>Est. 2025 | Powered by baby photos and big ideas</p>
+  </header>
+
+  <nav>
+    <a href="#research">Research</a>
+    <a href="#people">People</a>
+    <a href="#publications">Publications</a>
+  </nav>
+
+  <section id="research">
+    <h2>Our Research</h2>
+    <p>
+      Our group fearlessly investigates the science of aging, napping behavior, and why cookies disappear from lab fridges. We believe that every great scientific question deserves a gooey, adorable answer.
+    </p>
+  </section>
+
+  <section id="people">
+    <h2>People</h2>
+    <div class="person">
+      <img src="https://drive.google.com/file/d/1YZqGOo6QiRA4ib-kzyzDMcU3vD2lKMtF/view" alt="Baby 1">
+      <div>
+        <h3>Sarah Liu</h3>
+        <p>Undergraduate studying gene regulation through interdisciplinary methods. Known for combining developmental biology with horse diplomacy.</p>
+      </div>
+    </div>
+    <div class="person">
+      <img src="395791749264465_.pic_hd.jpg" alt="Baby 2">
+      <div>
+        <h3>Karis T.</h3>
+        <p>Undergraduate interested in parenting and cross-cultural psycholinguistics. Once debated a teddy bear on language acquisition theories.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Selected Publications</h2>
+    <ul>
+      <li><strong>Liu S., T. K.</strong> (2025). Babies Leading the Epigenetic Research Field. <em>Journal of Tiny Genomes</em>.</li>
+      <li><strong>T. K., Liu S.</strong> (2024). Nap Schedules and Chromatin Accessibility. <em>Baby Bio Letters</em>.</li>
+      <li><strong>The Team.</strong> (2023). Our Research Focuses on the Science of Aging. <em>Annual Review of Soft Blankets</em>.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 The Best Research Group. All rights reserved. Nap responsibly.</p>
+  </footer>
+</body>
+</html>
