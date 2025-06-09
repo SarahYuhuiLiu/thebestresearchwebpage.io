@@ -6,38 +6,58 @@
   <link rel="stylesheet" href="style.css"> <!>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: 'Helvetica Neue', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #fff8f5;
-      color: #333;
+      background-color: #fff8f0;
     }
-    nav {
-      background-color: #f5c6ec;
-      padding: 1em;
+    header {
+      background-color: #8dd7bf;
+      color: white;
+      padding: 1rem;
       text-align: center;
     }
+    nav {
+      background-color: #ffe0e0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 0.5rem 0;
+    }
     nav a {
-      margin: 0 1em;
       text-decoration: none;
-      color: #333;
+      color: #444;
       font-weight: bold;
     }
-    main {
-      padding: 2em;
-      max-width: 800px;
-      margin: auto;
+    section {
+      padding: 2rem;
     }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 0.5em;
+    .person {
+      display: flex;
+      flex-direction: column;  /* 图片和文字上下排 */
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+      margin-bottom: 3rem;
     }
-    .section {
-      margin-bottom: 2em;
+    .person img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #444;
     }
-    .emoji {
-      font-size: 1.5em;
-      margin-right: 0.5em;
+    footer {
+      background-color: #8dd7bf;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    section h3 {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+      color: #444;
     }
   </style>
 </head>
